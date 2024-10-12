@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "betterworldbooks-2"
+version = "0.1.0"
+description = ""
+authors = ["SAI909099 <sulaymonovabdulaziz1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
